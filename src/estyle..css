@@ -23,7 +23,6 @@ body{
  
 }
 .enviar {
-    display: flex;
     padding: 2px;
     padding-left: 67px;
     padding-right: 67px;
@@ -112,7 +111,8 @@ form{
 .nascimento{
     font-size: 14px;
 }
-.enviar{
-    margin: 10px 120px;
-
+.enviarform{
+    margin: 20px 120px;
+    background-color: rgba(96, 73, 118, 0.676);
+    padding: 5px 67px;
 }
