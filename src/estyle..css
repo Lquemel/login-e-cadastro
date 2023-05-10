@@ -6,7 +6,7 @@ body{
     font-family: 'Poppins', sans-serif;
     max-width: 1280px;
 	margin: 0 auto;
-
+    
 }
      /* aqui e para que meu site se ajuste a varias telas automaticamente  */
 .quadro {
@@ -68,6 +68,7 @@ a{
     background-color:rgb(179, 171, 237);
     border-radius: 5px 5px 0px 0px;
     padding: 1px 90px 1px 30px; border-bottom: 1px solid;
+
 }
 
 h2{
@@ -81,31 +82,32 @@ form{
     padding: 30px;
     border-radius: 0px 0px 5px 5px;
     background-color:rgb(179, 171, 237);
+    
     }
 
     .nome{
         margin: 5px 0px;
         border: solid 1px;
         border-radius: 4px;
-     font-size: 16px; 
+        font-size: 16px; 
     }
     .sobrenome{
-    margin: 5px 0px;
-    border: solid 1px;
-    border-radius: 4px;
-    font-size: 16px; 
+     margin: 5px 0px;
+     border: solid 1px;
+     border-radius: 4px;
+     font-size: 16px; 
 }
 .celular-ou-email{
-    margin: 5px 0px;
-    border: solid 1px;
-    border-radius: 4px;
- font-size: 16px; 
+     margin: 5px 0px;
+     border: solid 1px;
+     border-radius: 4px;
+     font-size: 16px; 
 }
 .senha{
-    margin: 5px 0px;
-    border: solid 1px;
-    border-radius: 4px;
- font-size: 16px; 
+     margin: 5px 0px;
+     border: solid 1px;
+     border-radius: 4px;
+     font-size: 16px; 
 }
 
 .nascimento{
