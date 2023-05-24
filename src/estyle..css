@@ -10,24 +10,27 @@ body{
 }
      /* aqui e para que meu site se ajuste a varias telas automaticamente  */
 .quadro {
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-top: 3%;
-    padding: 20px;
-    padding-left: 50px;
-    padding-right: 40px;
+    margin: 10px 500px 0px 500px;
+    padding: 20px 20px 20px 48px;
     border: 1px solid;
     border-radius: 5px;
     background-color: rgba(179, 171, 237, 0.566);
 
  
 }
-.enviar {
+ .enviar{
     padding: 2px;
-    padding-left: 67px;
-    padding-right: 67px;
+    padding-left: 65px;
+    padding-right: 65px;
     background-color: rgba(96, 73, 118, 0.676);
-    
+    cursor: pointer;
+ }
+
+ button:hover{
+    background-color: rgba(96, 73, 118, 0.676);
+    color: white;
+    padding: 3px 66px 3px 66px;
+
 }
 a{
     padding-left: 70px;
@@ -116,5 +119,5 @@ form{
 .enviarform{
     margin: 20px 120px;
     background-color: rgba(96, 73, 118, 0.676);
-    padding: 5px 67px;
+    padding: 2px 66px;
 }

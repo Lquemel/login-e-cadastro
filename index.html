@@ -15,28 +15,30 @@
 <body>
     <header class="login">
      <h1>Login</h1>
-    </header> 
-
-    <div class="quadro">
-        <div class="usuario-input">
-           
-            <label class="id-usuario" for="usuario">Nome do Usuário ou Email</label><br>
-           
-            <input type="text" name="email" id="usuario">
-        </div>
+    </header>
+    <form class="quadro" action="index.html" method="get">
        
-             <a href="recupera-senha">Esqueceu sua senha?</a>
-     
+       <div class="usuario-input">
+            <label class="id-usuario" for="usuario">Nome do Usuário ou Email</label><br> 
+            <input type="text" name="email" id="usuario">
+       </div>
+       
+            <a href="recupera-senha">Esqueceu sua senha?</a>
+      
         <div class="senha-input">  
-             <label class="text-senha" for="senha1">Senha</label><br>
-              <input type="password" id="senha1"><br><br>
+            <label class="text-senha" for="senha1">Senha</label><br>
+            <input type="password" id="senha1"><br><br>
         </div>
         
-        <input type="submit" name="commit" value="sign in" class="enviar"><br>
-    </div>
-   
-    <div>
+            <!-- <input type="submit" name="commit" value="sign in" class="enviar"><br> -->
+           <!-- outa forma de botão acima -->
+          
+           <button class="enviar">sign in</button>
+
+    </form>   
+     <div>
          <a class="cadastre-se" href="cadastro.html" target="blank">Faça seu cadastro</a>
-    </div>
+     </div>
+ 
 </body>
 </html>
